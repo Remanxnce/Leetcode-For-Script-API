@@ -16,4 +16,29 @@ So, my solution? create this. leetcode exists for people who want to learn how t
 - I've been coding for about a year now.
 - I've worked with the API and created a Bedrock Server, NEO PvP.
 - I've worked with [Bedrock Protocol](https://github.com/PrismarineJS/bedrock-protocol) to create projects for private and independent use.
+  - I'm currently making a private-use tickets bot!
 - I have basic knowledge of HTTPS requests with the XBOX API. 
+
+## Where are the challenges?
+
+To view any of the challenges, head to the [challenges folder](https://github.com/Remanxnce/Leetcode-For-Script-API/tree/main/Challenges) and choose a challenge. They will all have a date of creation, a __Relative Difficulty__, and some hints posted.
+ - Relative Difficulty is just a rating of how hard it is compared to some of the other challenges. these can change at any time.
+
+## Cross Communication
+
+Just to show how a challenge might be done, the solution for [Health-Displays](https://github.com/Remanxnce/Leetcode-For-Script-API/blob/main/Challenges/cross-communication.md) will be posted below.
+
+```js
+import {world, system} from "@minecraft/server"
+
+system.runInterval(()=>{
+    for (const player of world.getAllPlayers()){
+        const health = player.getComponent(`health`)
+            const maxHP = health.effectiveMax
+            const currentHP = health.currentValue
+
+        player.nameTag = `${player.name}\n§c${currentHP}/${maxHP}`
+    }
+})
+
+```
