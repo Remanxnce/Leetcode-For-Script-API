@@ -12,8 +12,8 @@ So, my solution? create this. leetcode exists for people who want to learn how t
 
 ### What qualifies you?
 
--I was taught how to code by [THE BOSS](https://github.com/THEBOSS9345)
--I've been coding for about a year now.
--I've worked with the API and created a Bedrock Server, NEO PvP.
--I've worked with [Bedrock Protocol](https://github.com/PrismarineJS/bedrock-protocol) to create projects for private and independent use.
--I have basic knowledge of HTTPS requests with the XBOX API. 
+- I was taught how to code by [THE BOSS](https://github.com/THEBOSS9345)
+- I've been coding for about a year now.
+- I've worked with the API and created a Bedrock Server, NEO PvP.
+- I've worked with [Bedrock Protocol](https://github.com/PrismarineJS/bedrock-protocol) to create projects for private and independent use.
+- I have basic knowledge of HTTPS requests with the XBOX API. 
