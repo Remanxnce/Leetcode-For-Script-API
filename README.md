@@ -26,7 +26,7 @@ To view any of the challenges, head to the [challenges folder](https://github.co
 
 ## Cross Communication
 
-Just to show how a challenge might be done, the solution for [Health-Displays](https://github.com/Remanxnce/Leetcode-For-Script-API/blob/main/Challenges/cross-communication.md) will be posted below.
+Just to show how a challenge might be done, the solution for [Health-Displays](https://github.com/Remanxnce/Leetcode-For-Script-API/blob/main/Challenges/health-displays.md) will be posted below.
 
 ```js
 import {world, system} from "@minecraft/server"
